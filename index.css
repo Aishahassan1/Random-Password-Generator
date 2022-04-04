@@ -53,7 +53,8 @@ hr {
 #password-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
 
 button {
