@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/684be95bf1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="heading-sec">
+            <span class="heading-1">Generate a </span> 
+            <span class="heading-2">Random Password</span>
+            <p class="strap-line">Never use an insecure password again.</p>
+            <button class="pword-btn" onclick="generatePassword()">Generate Password</button>
+            <button class="clipboard-btn" onclick="copy()"><i  class="fa-solid fa-clipboard"></i></button>      
+            <input type="number" class="pword-length" id="input-el" placeholder="password length">          
+            <hr>
+        </div id="heading-sec">
+        
+        <div id="password-container">
+            <div id="password-block">
+                <p class="password" id="password-el1"></p>
+                <p class="password" id="password-el2"></p>
+            </div>
+        
+            <div id="password-block">
+                <p class="password" id="password-el3"></p>
+                <p class="password" id="password-el4"></p>
+            </div>
+        </div>    
+        <script src="index.js"></script>
+    </body>
+</html>

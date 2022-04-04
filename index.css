@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1f2937;
+}
+
+#heading-sec {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+.heading-1 {
+  font-size: 30px;
+  color: white;
+}
+
+.heading-2 {
+  font-size: 30px;
+  color: #10b981;
+}
+
+.strap-line {
+  color: white;
+}
+
+hr {
+  max-width: 400px;
+  margin-top: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.password {
+  height: 50px;
+  width: 150px;
+  background: #273549;
+  color: white;
+  text-align: center;
+  width: 180px;
+  height: 30px;
+  border-radius: 4px;
+  color: #10b981;
+  margin-bottom: 18px;
+}
+
+#password-block {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#password-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  width: 200px;
+  text-align: center;
+  height: 35px;
+  background: #10b981;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+}
+
+/* .fa-bolt {
+    position: absolute;
+    left: 36px;
+    top: 160px;
+    color: white;
+    
+}  */
+.pword-btn::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e7";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 8px;
+}
+
+.clipboard-btn {
+  width: 35px;
+  margin-left: -18px;
+  background: #0d9e6e;
+}
+
+.pword-length {
+  width: 132px;
+}
